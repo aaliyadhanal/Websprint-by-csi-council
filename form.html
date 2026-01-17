@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Event Registration</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Registration</h1>
+    <hr>
+
+    <form>
+        <div class="section">
+            <h2>Personal Details</h2>
+
+            <div class="row">
+                <div class="input-field">
+                    <label>Full Name</label>
+                    <input type="text" placeholder="Enter Your Name" required>
+                </div>
+
+                <div class="input-field">
+                    <label>Phone Number</label>
+                    <input type="tel" placeholder="Enter Your Phone Number" required>
+                </div>
+
+                <div class="input-field">
+                    <label>Email</label>
+                    <input type="email" placeholder="Enter Your Email" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Academic Details</h2>
+
+            <div class="row">
+                <div class="input-field">
+                    <label>Year of Study</label>
+                    <select required>
+                        <option value="">Select year</option>
+                        <option>First Year</option>
+                        <option>Second Year</option>
+                        <option>Third Year</option>
+                        <option>Final Year</option>
+                    </select>
+                </div>
+
+                <div class="input-field">
+                    <label>Branch</label>
+                    <select required>
+                        <option value="">Select branch</option>
+                        <option>Computer Engineering</option>
+                        <option>Information Technology</option>
+                        <option>Computer Science & Technology</option>
+                        <option>Data Science</option>
+                        <option>Artificial Intelligent</option>
+                        <option>Electronics & Communication</option>
+                    </select>
+                </div>
+
+                <div class="input-field">
+                    <label>No. of Participants</label>
+                    <input type="number" min="1" max="10" placeholder="Enter number" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Select Event</h2>
+
+            <div class="row">
+                <div class="input-field full-width">
+                    <label>Event</label>
+                    <select required>
+                        <option value="">Choose an event</option>
+                        <option>Websprint</option>
+                        <option>Football Tournament</option>
+                        <option>AI & Machine Learning Workshop</option>
+                        <option>Drone Workshop</option>
+                        <option>Code Ignite</option>
+                        <option>Robotics Workshop</option>
+                        <option>Hackfusion</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <button type="submit">Register</button>
+    </form>
+</div>
+
+</body>
+</html>
